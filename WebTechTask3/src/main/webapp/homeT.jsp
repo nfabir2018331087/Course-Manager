@@ -102,7 +102,7 @@
                             <span class="font-bold text-md"> <%= rs.getString("teacher") %></span>
                         </div>
                         <div class="flex justify-between">
-                            <a href="/WebTechTask3/accept?ccode='<%= rs.getString("ccode") %>'&cname='<%= rs.getString("cname") %>'&dept='<%= rs.getString("dept") %>'&teacher='<%= rs.getString("teacher") %>'">
+                            <a href="/WebTechTask3/accept?ccode=<%= rs.getString("ccode") %>&cname=<%= rs.getString("cname") %>&dept=<%= rs.getString("dept") %>&teacher=<%= rs.getString("teacher") %>">
                         <button class="bg-green-300 px-4 py-3 rounded-full  border border-[#F0F0F6] shadow-xl mt-4 hover:bg-green-400">
                              <i class="fa-solid fa-check"></i> Accept
                         </button>						
@@ -129,7 +129,3 @@
             </div>  
 </body>
 </html>
-
-<button class="bg-[#F4F5FA] px-4 py-3 rounded-full  border border-[#F0F0F6] shadow-xl mt-4 hover:bg-gray-200">
-                            <i class="fa-solid fa-circle-chevron-down"></i>  Show Student List
-                        </button>
