@@ -98,7 +98,7 @@
                         </div>
                         
                         
-						<a href="/WebTechTask3/enroll?ccode='<%= rs.getString("ccode") %>'&cname='<%= rs.getString("cname") %>'&dept='<%= rs.getString("dept") %>'&teacher='<%= rs.getString("teacher") %>'">
+			<a href="/WebTechTask3/enroll?ccode=<%= rs.getString("ccode") %>&cname=<%= rs.getString("cname") %>&dept=<%= rs.getString("dept") %>&teacher=<%= rs.getString("teacher") %>">
                         <button class="bg-green-300 px-4 py-3 rounded-full  border border-[#F0F0F6] shadow-xl mt-4 hover:bg-green-400">
                             <i class="fa-solid fa-file-pen"></i>  Enroll
                         </button>						
